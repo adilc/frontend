@@ -34,7 +34,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: adilcan/frontend:latest
+      - image: $REPOSITORY_URI:$TAG
         imagePullPolicy: Always
         name: frontend
         ports:
