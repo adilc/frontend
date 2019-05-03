@@ -34,7 +34,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: $REPOSITORY_URI:$TAG
+      - image: CONTAINER_IMAGE
         imagePullPolicy: Always
         name: frontend
         ports:
